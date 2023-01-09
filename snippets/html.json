@@ -1,0 +1,64 @@
+{
+  "tophat - head meta tags": {
+    "prefix": "meta",
+    "description": "all meta tags",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\" class=\"no-js\">",
+      "<head>",
+      "\t<meta charset=\"UTF-8\">",
+      "\t<meta name=\"viewport\" content=\"width=device-width\">",
+
+      "\t<title>Page Title - My Site</title> <!-- TODO: update page title -->",
+
+      "\t<script type=\"module\">",
+      "\t\t\tdocument.documentElement.classList.remove('no-js');",
+      "\t\t\tdocument.documentElement.classList.add('js');",
+      "\t</script>",
+
+      "\t<meta name=\"description\" content=\"Page Description\"> <!-- TODO: update meta description -->",
+      "\t<meta property=\"og:title\" content=\"Home - Page\">  <!-- TODO: update og:title -->",
+      "\t<meta property=\"og:url\" content=\"https://www.example.com/page\"> <!-- TODO: update og:url -->",
+      "\t<meta property=\"og:description\" content=\"OG Page Description\">  <!-- TODO: update og:description -->",
+      "\t<meta property=\"og:image\" content=\"/path/to/image\">  <!-- TODO: og:image -->",
+      "\t<meta property=\"og:image:alt\" content=\"OG Image Description\"> <!-- TODO: update og:image:alt --> ",
+      "\t<meta property=\"og:locale\" content=\"en_US\">",
+      "\t<meta property=\"og:type\" content=\"website\">",
+      "\t<meta name=\"twitter:card\" content=\"large-image-twitter.jpg\"> <!-- TODO: update twitter:cared -->",
+
+      "\t<link rel=\"canonical\" href=\"https://www.example.com/page\"> <!-- TODO: update canonical link -->",
+      "\t<link rel=\"icon\" href=\"/favicon.ico\">",
+      "\t<link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\">",
+      "\t<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">",
+      "\t<link rel=\"manifest\" href=\"site.webmanifest\"> <!-- TODO: update web app manifest file -->",
+      "\t<meta name=\"theme-color\" content=\"#FF00FF\"> <!-- TODO: update meta theme color -->",
+
+      "\t<link rel=\"stylesheet\" href=\"/styles/css/styles.css\">  <!-- TODO: Update styles -->",
+      "\t<link rel=\"stylesheet\" href=\"/styles/css/print.css\" media=\"print\">",
+			
+      "</head>",
+			"<body>",
+
+			"</body>"
+
+    ]
+  },
+  "tophat - scripts": {
+    "prefix": "scripts",
+    "description": "content scripts for document head",
+    "body": [
+			"\t<!-- Content -->",
+			"\t<script src=\"js/app.js\"></script> <!-- TODO: Update app entry point -->",
+			"\t<script src=\"js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js\"></script> <!-- TODO: Add Modernizr js -->", 
+			"\t<script src=\"/assets/js/xy-polyfill.js\" nomodule></script>",
+			"\t<script src=\"/assets/js/script.js\" type=\"module\"></script>",
+		
+			"\t<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->",
+			"\t<script>",
+				"\t\twindow.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;",
+				"\t\tga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')",
+			"\t</script>",
+			"\t<script src=\"https://www.google-analytics.com/analytics.js\" async></script>"
+    ]
+  }
+}

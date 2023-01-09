@@ -1,0 +1,20 @@
+{
+    "tophat-webmanifest" : {
+		"meta": "TopHat - Webmanifest file.",
+		"description": "What you need for your <head> - Snippets for meta tags and open graph meta tags.",
+		"body" : [
+			"{",
+			"\t\"short_name\": \"\",",
+			"\t\"name\": \"\",",
+			"\t\"icons\": [{",
+			"\t\t\"src\": \"images/icon.png\",",
+			"\t\t\"type\": \"image/png\",",
+			"\t\t\"sizes\": \"192x192\"",
+			"\t}],",
+			"\t\"start_url\": \"/?utm_source=homescreen\",",
+			"\t\"background_color\": \"#fafafa\",",
+			"\t\"theme_color\": \"#fafafa\"",
+			"}"
+		]
+	}
+}

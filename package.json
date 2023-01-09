@@ -1,0 +1,74 @@
+{
+    "name": "tophat",
+    "displayName": "Tophat | Meta Tag Open Graph Snippets",
+    "publisher": "remyhunt",
+    "description": "What you need for your <head> - snippets for meta tags and open graph meta tags.",
+    "version": "0.0.3",
+    "license": "MIT",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#7573ff",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^0.10.x"
+    },
+    "homepage": "https://github.com/remyhunt/",
+    "bugs": {
+        "url": "https://github.com/remyhunt/tophat-vsc/issues",
+        "email": "remyhunter256@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/remyhunt/tophat-vsc.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "html",
+        "html5",
+        "snippet",
+        "snippets",
+        "boilerplate"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/json.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "esbuild": "^0.16.16"
+    }
+}
