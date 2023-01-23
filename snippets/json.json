@@ -7,7 +7,7 @@
 			"\t\"short_name\": \"\",",
 			"\t\"name\": \"\",",
 			"\t\"icons\": [{",
-			"\t\t\"src\": \"images/icon.png\",",
+			"\t\t\"src\": \"images/icon192.png\",",
 			"\t\t\"type\": \"image/png\",",
 			"\t\t\"sizes\": \"192x192\"",
 			"\t}],",
